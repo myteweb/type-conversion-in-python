@@ -1,0 +1,58 @@
+# bool to int
+
+var= True
+print("Type of variable : " + str(type(var)))
+var=int(var)
+print(var)
+
+s=str(type(var))
+print("Type of variable : " + s)
+
+# bool to float
+print("\n")
+var= True
+print("Type of variable : " + str(type(var)))
+var=float(var)
+print(var)
+
+s=str(type(var))
+print("Type of variable : " + s)
+
+# bool to str
+
+print("\n")
+
+var= True
+print("Type of variable : " + str(type(var)))
+var=str(var)
+print(var)
+
+s=str(type(var))
+print("Type of variable : " + s)
+
+# bool to complex
+
+print("\n")
+
+var= True
+print("Type of variable : " + str(type(var)))
+var=complex(var)
+print(var)
+
+s=str(type(var))
+print("Type of variable : " + s)
+
+# bool to list
+
+''' bool object is not iterable so bool not convert 
+     in list'''
+
+ # bool to tuple
+
+''' bool object is not iterable so bool not convert 
+     in tuple'''
+
+ # bool to dictionary
+
+''' bool object is not iterable so bool not convert 
+     in dictionary'''
